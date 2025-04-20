@@ -1,0 +1,7 @@
+Scene,Name,Dialogue,Main Icon,Other Icon,Background
+A.03,Gretel,"No, we should leave a trail of rocks and branches behind us instead.",gretel_talking.jpg,hansel_normal.jpg,forest.jpg
+A.04,Hansel,You’re right. I’m a bit hungry.,gretel_normal.jpg,hansel_talking.jpg,forest.jpg
+A.05,Hansel,We made it! We’re back home!,gretel_normal.jpg,hansel_talking.jpg,home.jpg
+A.06,Hansel,Wait… How many pieces of bread did I eat?,gretel_normal.jpg,hansel_talking.jpg,home.jpg
+A.07,Gretel,You ate 3 loaves of bread.,gretel_talking.jpg,hansel_normal.jpg,home.jpg
+A.08,Hansel,Hmm… Sounds about right!,gretel_normal.jpg,hansel_talking.jpg,home.jpg

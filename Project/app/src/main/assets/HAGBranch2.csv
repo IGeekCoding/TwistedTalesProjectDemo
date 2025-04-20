@@ -1,0 +1,4 @@
+Scene,Name,Dialogue,Main Icon,Other Icon,Background
+A.03,Gretel,That sounds like a good idea!,gretel_talking.jpg,hansel_normal.jpg,forest.jpg
+A.04,Hansel,"Yea, I was planning on saving it for lunch, but oh well.",gretel_normal.jpg,hansel_talking.jpg,forest.jpg
+A.05,Hansel,I think we went the wrong way…,gretel_scared.jpg,hansel_scared.jpg,blackhole.jpg
