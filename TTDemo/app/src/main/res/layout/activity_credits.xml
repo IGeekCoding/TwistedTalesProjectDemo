@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    tools:context=".CreditsActivity"
+    android:background="@android:color/holo_purple">
+
+    <!-- Background image -->
+    <ImageView
+        android:id="@+id/tt_home_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tt_home_screen"
+        android:scaleType="centerCrop" />
+
+    <!-- Transparent overlay (e.g., dim the background) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#993C0045" />
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:textColor="#E7FD9F"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/old_english_five"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/creditsList"
+
+
+        android:shadowColor="#000000"
+        android:shadowDx="-15"
+        android:shadowDy="10"
+        android:shadowRadius="6"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/creditsList"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Alex Abrego\n Ethan Fernandez\nNadia Jones\nRayyan Sunesra"
+        android:fontFamily="serif"
+        android:textSize="26sp"
+        android:textColor="#FDDD9F"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/credits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

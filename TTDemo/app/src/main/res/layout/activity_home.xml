@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+
+    <!-- Background image -->
+    <ImageView
+        android:id="@+id/tt_home_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tt_home_screen"
+        android:scaleType="centerCrop" />
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twisted Tales"
+        android:fontFamily="@font/old_english_five"
+        android:textColor="#E7FD9F"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:shadowColor="#000000"
+        android:shadowDx="-15"
+        android:shadowDy="10"
+        android:shadowRadius="6"
+        android:padding="10dp" />
+
+    <!-- Foreground layout with buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start|top"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp">
+
+        <!-- Start button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnStart"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Start"
+            android:fontFamily="serif"
+            android:textSize="26sp"
+            android:textColor="#FDDD9F"
+            android:background="@drawable/tt_green_button"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Settings button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSettings"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Settings"
+            android:fontFamily="serif"
+            android:textSize="22sp"
+            android:textColor="#FDDD9F"
+
+            android:background="@drawable/tt_blue_button"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Credits button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCredits"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Credits"
+            android:fontFamily="serif"
+            android:textSize="22sp"
+            android:textColor="#FDDD9F"
+            android:background="@drawable/tt_red_button" />
+    </LinearLayout>
+</FrameLayout>

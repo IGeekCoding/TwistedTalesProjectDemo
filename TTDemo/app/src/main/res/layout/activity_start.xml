@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+
+    <!-- Background image -->
+    <ImageView
+        android:id="@+id/tt_home_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tt_home_screen"
+        android:scaleType="centerCrop" />
+
+    <!-- Transparent purple overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#993C0045" />
+
+    <!-- Menu content -->
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnNewGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New"
+                android:fontFamily="serif"
+                android:textColor="#FDDD9F"
+                android:textSize="30sp"
+                android:background="@drawable/tt_green_button"
+                android:layout_marginBottom="16dp"
+                android:padding="16dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnViewGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:fontFamily="serif"
+                android:textColor="#FDDD9F"
+                android:textSize="30sp"
+                android:background="@drawable/tt_blue_button"
+                android:layout_marginBottom="16dp"
+                android:padding="16dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnContinueGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:fontFamily="serif"
+                android:textColor="#FDDD9F"
+                android:textSize="30sp"
+                android:background="@drawable/tt_red_button"
+                android:padding="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

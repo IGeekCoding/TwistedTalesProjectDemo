@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+
+    <!-- Background image -->
+    <ImageView
+        android:id="@+id/tt_home_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tt_home_screen"
+        android:scaleType="centerCrop" />
+
+    <!-- Transparent purple overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#993C0045" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:id="@+id/story_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnHanselGretel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hansel and Gretel"
+            android:textSize="25sp"
+            android:fontFamily="serif"
+            android:textColor="#FDDD9F"
+            android:background="@drawable/tt_green_button"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRedRidingHood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Little Red\nRiding Hood"
+            android:textSize="24sp"
+            android:fontFamily="serif"
+            android:textColor="#FDDD9F"
+            android:background="@drawable/tt_blue_button" />
+
+    </LinearLayout>
+</FrameLayout>
