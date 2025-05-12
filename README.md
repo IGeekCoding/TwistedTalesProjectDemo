@@ -20,3 +20,6 @@ X---- Twisted Tales Final Application ----X
   - Settings: Proved to be much more challenging as a side task and thus became cut content
   - Back Button: Came across a visual bug for implementation and use
   - Storyline: One of the options along the storyline for HAG (Hansel and Grettle) does not function properly, but it does not disrupt the user experience till late game 
+
+
+https://drive.google.com/file/d/1-szzCj1ZBX2y3j4Ud-OkEWzUpPy2FqQ0/view?usp=sharing <- this is a link to the final project that you can download off google if you have trouble with the Github
